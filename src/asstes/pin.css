@@ -1,0 +1,141 @@
+h1{
+    margin: 0;
+}
+.big{
+    padding-top: 0.5rem;
+    background: white;
+}
+.toppp{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    height: 0.5rem;
+    background: #00a2ed;
+}
+.toppp span{
+    display: inline-block;
+    line-height: 0.5rem;
+}
+.toppp span:nth-child(1){
+    margin-left: 0.1rem;
+    color: white;
+    font-size: 0.22rem;
+    vertical-align: top;
+}
+.toppp span:nth-child(2){
+    margin-left: 0.1rem;
+    width: 1.2rem;
+    color: white;
+    font-size: 0.18rem;
+    vertical-align: top;
+}
+.toppp span:nth-child(3){
+    margin-left: 1.8rem;
+    color: white;
+    font-size: 0.22rem;
+    vertical-align: top;
+}
+.pin-main{
+    width: 100%;
+    line-height: 0.4rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+.pin-main p{
+    margin-left: 0.15rem;
+    display: inline-block;
+}
+.pin-main span{
+    float: right;
+    margin-right: 0.1rem;
+}
+.chang1{
+    height: 5.34rem;
+    width: 100%;
+    background: white;
+    font-size: 0.3rem;
+    line-height: 5.34rem;
+    text-align: center;
+    border-bottom: 0.01rem solid #ccc;
+}
+.pin-ul li{
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0.1rem;
+}
+.pin-ul li img{
+    border-radius: 50%;
+    width: 0.4rem;
+    margin-left: 0.1rem;
+    float: left;
+}
+.pin-ul li .pin-div1{
+    float: left;
+    width: 3.15rem;
+    margin-left: 0.1rem;
+}
+.pin-div1 div:nth-child(1){
+    overflow: hidden;
+    padding-bottom: 0.1rem;
+}
+.pin-div1 div:nth-child(1) p{
+    float: left;
+    font-size: 0.16rem;
+    font-weight: bold;
+}
+.pin-div1 div:nth-child(1) span{
+    float: right;
+    margin-right: 0.1rem;
+    font-size: 0.14rem;
+    color: #ccc;
+}
+.pin-div1 div:nth-child(2){
+    padding: 0 0.05rem;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+}
+.pin-div1 div:nth-child(3){
+    padding: 0 0.05rem;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    width: 3.05rem;
+    /*height: 0.4rem;*/
+}
+.pin-div1 div:nth-child(3) p{
+    width: 100%;
+    /*height: 0.6rem;*/
+    overflow:hidden;
+}
+.pin-div1 div:nth-child(3) .lll{
+    word-break:break-all;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+.pin-div1 div:nth-child(3) span{
+    float: none;
+    font-size: 0.15rem;
+    /*display: inline-block;*/
+}
+.pin-div1 div:nth-child(4){
+    overflow: hidden;
+    /*margin-top: 0.1rem;*/
+    padding-bottom: 0.1rem;
+}
+.pin-div1 div:nth-child(4) p{
+    float: left;
+    font-size: 0.12rem;
+    color: #ccc;
+}
+.pin-div1 div:nth-child(4) span{
+    float: right;
+    display: block;
+    width: 0.4rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    margin-right: 0.1rem;
+    background: #dedede;
+    color: #999;
+}
